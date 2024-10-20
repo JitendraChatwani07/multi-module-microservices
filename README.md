@@ -9,17 +9,14 @@ This project is a multi-module microservice architecture that includes User, Ord
 1. **User Service**
    - **Port:** 8081
    - **Description:** Manages user information such as registration, retrieval, and updates.
-   - **API Documentation:** [User Service API](./docs/user-api.md)
 
 2. **Order Service**
    - **Port:** 8082
    - **Description:** Handles order processing, including order creation, retrieval, updating, and deletion.
-   - **API Documentation:** [Order Service API](./docs/order-api.md)
 
 3. **Product Service**
    - **Port:** 8083
    - **Description:** Manages product information, including product creation, retrieval, updating, and deletion.
-   - **API Documentation:** [Product Service API](./docs/product-api.md)
 
 ## Repository Structure
 root
@@ -40,9 +37,7 @@ root
 
 ## Setup and Installation
 
-1. **Clone the repository:**
-
-   ```bash
+   go to you terminal from path where you want to clone the project repository
    git clone https://github.com/JitendraChatwani07/multi-module-microservices.git
    cd multi-module-microservices
    docker compose up --build
